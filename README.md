@@ -61,18 +61,19 @@ EMBEDDING_PROVIDER=gemini
 GOOGLE_API_KEY=AIza-your-key-here
 ```
 
-### 3. Download Papers and Build Index
+### 3. Build Vector Store
+
+The 15 research papers are already included in `data/papers/`. Just build the index:
 
 ```bash
-# Download all 15 papers
-python scripts/download_papers.py
-
 # Build the vector store
 python scripts/setup_vectorstore.py
 
 # Verify everything works
 python scripts/verify_setup.py
 ```
+
+> **Note:** If you need to re-download papers, run `python scripts/download_papers.py`
 
 ### 4. Run the Crew
 
