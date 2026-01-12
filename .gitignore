@@ -15,8 +15,7 @@ data/vectorstore/*
 data/processed/*
 !data/processed/.gitkeep
 
-# PDF papers (downloaded separately)
-data/papers/*.pdf
+# PDF papers (included in repo for student convenience)
 
 # Outputs
 outputs/*
