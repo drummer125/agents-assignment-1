@@ -23,6 +23,8 @@ data/processed/*
 # Outputs
 outputs/*
 !outputs/.gitkeep
+!outputs/*.md
+!outputs/*.pdf
 
 # Python
 __pycache__/
